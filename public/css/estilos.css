@@ -1,0 +1,174 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+body {
+  display: flex;
+}
+
+.barra_lateral {
+  background-color: #0060a8;
+  width: 16%;
+  height: auto;
+  overflow: hidden;
+  min-height: 900px;
+}
+
+.secciones_barra_lateral {
+  margin-top: 20px;
+}
+
+.secciones_barra_lateral ul li{
+  border-bottom: 1px solid black;
+  width: 100%;
+  height: 45px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.secciones_barra_lateral ul li:hover{
+  background-color: #13b3e2;
+}
+
+.material-icons {
+  color: #c6c6c6;
+  padding-left: 20px;
+}
+
+.secciones_barra_lateral ul li a{
+  color: white !important;
+  padding-left: 5px;
+  text-decoration: none;
+}
+
+.secciones_barra_lateral ul li{
+  cursor: pointer;
+}
+
+.info_personal {
+  margin-left: 20px;
+}
+
+.info_personal h5{
+  color: white;
+}
+
+.info_personal p{
+  color: #c9c9c9;
+}
+
+.info_personal img {
+  width: 50px;
+  height: 50px;
+}
+
+.barra_lateral_sup {
+  width: 100%;
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.barra_lateral_sup img {
+  width: 10%;
+  height: 10%;
+}
+
+#logo_ivess {
+  width: 60%;
+}
+
+#icono_menu {
+  width: 30px;
+  margin: 20px;
+  cursor: pointer;
+}
+.mostrar_seccion {
+  width: 100%;
+  height: 100%;
+  background-color: #ededed;
+  height: auto;
+  overflow: hidden;
+  min-height: 900px;
+}
+
+.grafico_clientes_new {
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
+
+.cabecera_tabla {
+  background-color: #1085b4;
+  color: #e8e8e8;
+}
+
+.btn_rendimiento {
+  width: 55px;
+  height: 35px;
+  font-size: 14px;
+}
+
+.ult_semana_negativo {
+  color: red;
+}
+
+.ult_semana_neutral {
+  color: #1085b4;
+}
+
+.ult_semana_positivo {
+  color: #25d266;
+}
+
+.table td, .table th {
+  padding: 0.4rem;
+}
+
+.contenedor_white {
+  background-color: #f7f7f7;
+  padding: 20px;
+}
+
+.btn_guardar_configuracion {
+  background-color: #1085b4;
+  color: white;
+}
+
+.btn_resetear_configuracion {
+  background-color: #c16868;
+  color: white;
+}
+
+.opciones_crear_users {
+  width: 100%;
+  display: flex;
+  height: 60px;
+  justify-content:space-around;
+  align-items: center;
+  background-color: #0c3c59;
+}
+
+.opciones_crear_users button {
+  border: 1px solid #f7f7f7;
+  background-color: transparent;
+  color: white;
+}
+
+.select select{
+  width: 120px;
+  border: 1px solid #f7f7f7;
+  background-color: transparent;
+  color: white;
+}
+
+.sub_menu_barra_lateral {
+  background-color: #0b5684;
+  color: #e5e5e5;
+}
