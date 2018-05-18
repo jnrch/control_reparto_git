@@ -17,8 +17,8 @@ Route::get('/', function () {
 });
 
 
-Route::get('/mi_progreso', function () {
-    return view('mi_progreso');
+Route::get('/comparativa', function () {
+    return view('comparativa');
 });
 
 Route::get('/configuracion', function () {

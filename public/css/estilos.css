@@ -150,25 +150,55 @@ body {
   width: 100%;
   display: flex;
   height: 60px;
-  justify-content:space-around;
+  justify-content: space-between;
   align-items: center;
-  background-color: #0c3c59;
+  background-color: #f9f9f9;
+  margin-bottom: 20px;
+}
+
+.opciones_crear_users input {
+  width: 30%;
+  margin-left: 15px;
 }
 
 .opciones_crear_users button {
-  border: 1px solid #f7f7f7;
-  background-color: transparent;
-  color: white;
-}
-
-.select select{
-  width: 120px;
-  border: 1px solid #f7f7f7;
-  background-color: transparent;
+  background-color: #13b3e2;
+  margin-right: 15px;
   color: white;
 }
 
 .sub_menu_barra_lateral {
-  background-color: #0b5684;
-  color: #e5e5e5;
+  background-color: #034b77;
+  color: #c6c6c6;
+}
+
+.header_users {
+  background-color: #f9f9f9;
+  height: 100px;
+}
+
+.header_users_titulo {
+  padding-left: 10px;
+  padding-top: 10px;
+  color: #595959;
+}
+
+.header_users_texto {
+  padding-left: 10px;
+  color: #aaaaaa;
+}
+
+.select_super_repart {
+  width: 30%;
+  margin-left: 15px;
+}
+
+.seteo_rango_fechas {
+  display: flex;
+}
+
+.flechita_abajo {
+  padding-left: 0px;
+  color: #1085b4;
+  cursor: pointer;
 }
