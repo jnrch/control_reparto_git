@@ -22,15 +22,25 @@
       <img src="img/logo_ivess_2018_2.png" alt="logo_ivess">
     </div>
 
-    <div class="msj_despedida">
-      <h2>¡Hasta luego!</h2>
-      <p>Gracias por utilizar nuestro sistema. Esperamos haber optimizado su trabajo</p>
+    <div class="msj_bienvenida">
+      <h2>Login</h2>
+      <p>Ingrese al sistema de repartos de Ivess</p>
     </div>
 
-    <div class="opciones_despedida">
-      <button class="btn btn-sm btn_salir_ingresar" type="button" name="button">Ingresar</button>
+
+    <form class="form_login">
+      <div class="form-group">
+        <label for="user">Usuario</label>
+        <input type="email" class="form-control" name="user" placeholder="Ingresar usuario" required>
+      </div>
+      <div class="form-group">
+        <label for="contraseña">Contraseña</label>
+        <input type="password" class="form-control" name="contraseña" placeholder="Ingresar contraseña" required>
+      </div>
+      <button class="btn btn-sm btn_salir_ingresar" type="submit" name="button">Ingresar</button>
       <button data-toggle="modal" data-target="#modal_olvido_pass" class="btn btn-sm btn_salir_recordar_pass" type="button" name="button">Olvidé la contraseña</button>
-    </div>
+    </form>
+
 
 
 
@@ -59,6 +69,6 @@
        </div>
      </div>
 
-
+     
   </body>
 </html>

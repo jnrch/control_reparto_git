@@ -6,7 +6,7 @@
     <p class="header_users_texto">Aquí podrá elegir la comparativa de usuarios rankeada por los indicadores</p>
   </div>
   <div class="opciones_crear_users">
-      <select class="form-control select_super_repart">
+      <select class="form-control select_super_repart select_notificaciones">
         <option selected>Supervisores</option>
         <option>Repartidores</option>
       </select>
@@ -28,289 +28,93 @@
           <th>Ventas</th>
           <th>Desv hs</th>
           <th>Fiado</th>
-          <th>Rendimiento</th>
+          <th>Reclamos</th>
         </tr>
       </thead>
       <tbody>
         <tr>
           <th scope="row">1</th>
           <td>Jose Perez</td>
-          <td>
-            <i class="material-icons ult_semana_positivo">arrow_upward</i>
-            15
-            <i data-toggle="modal" data-target="#modal_rendimiento" class="material-icons flechita_abajo">arrow_drop_down</i>
-          </td>
-          <td>
-            <i class="material-icons ult_semana_positivo">arrow_upward</i>
-            15
-            <i data-toggle="modal" data-target="#modal_rendimiento" class="material-icons flechita_abajo">arrow_drop_down</i>
-          </td>
-          <td>
-            <i class="material-icons ult_semana_positivo">arrow_upward</i>
-            15
-            <i data-toggle="modal" data-target="#modal_rendimiento" class="material-icons flechita_abajo">arrow_drop_down</i>
-          </td>
-          <td>
-            <i class="material-icons ult_semana_positivo">arrow_upward</i>
-            15
-            <i data-toggle="modal" data-target="#modal_rendimiento" class="material-icons flechita_abajo">arrow_drop_down</i>
-          </td>
-          <td>
-            <i class="material-icons ult_semana_positivo">arrow_upward</i>
-            15
-            <i data-toggle="modal" data-target="#modal_rendimiento" class="material-icons flechita_abajo">arrow_drop_down</i>
-          </td>
-          <td>
-            <i class="material-icons ult_semana_positivo">arrow_upward</i>
-            15
-            <i data-toggle="modal" data-target="#modal_rendimiento" class="material-icons flechita_abajo">arrow_drop_down</i>
-          </td>
-          <td>
-            <i class="material-icons ult_semana_positivo">arrow_upward</i>
-            15
-            <i data-toggle="modal" data-target="#modal_rendimiento" class="material-icons flechita_abajo">arrow_drop_down</i>
-          </td>
-          <td> <button disabled class="btn btn-xs btn-danger btn_rendimiento" type="button" name="button">Bajo</button> </td>
+          <td> <button data-toggle="modal" data-target="#modal_rendimiento" class="btn btn-sm btn-danger btn_rendimiento" type="button" name="button"></button> </td>
+          <td> <button data-toggle="modal" data-target="#modal_rendimiento" class="btn btn-sm btn-danger btn_rendimiento" type="button" name="button"></button> </td>
+          <td> <button data-toggle="modal" data-target="#modal_rendimiento" class="btn btn-sm btn-danger btn_rendimiento" type="button" name="button"></button> </td>
+          <td> <button data-toggle="modal" data-target="#modal_rendimiento" class="btn btn-sm btn-danger btn_rendimiento" type="button" name="button"></button> </td>
+          <td> <button data-toggle="modal" data-target="#modal_rendimiento" class="btn btn-sm btn-danger btn_rendimiento" type="button" name="button"></button> </td>
+          <td> <button data-toggle="modal" data-target="#modal_rendimiento" class="btn btn-sm btn-danger btn_rendimiento" type="button" name="button"></button> </td>
+          <td> <button data-toggle="modal" data-target="#modal_rendimiento" class="btn btn-sm btn-danger btn_rendimiento" type="button" name="button"></button> </td>
+          <td> <button data-toggle="modal" data-target="#modal_rendimiento" class="btn btn-sm btn-danger btn_rendimiento" type="button" name="button">14</button> </td>
         </tr>
         <tr>
           <th scope="row">2</th>
           <td>Juan Ramirez</td>
-          <td>
-            <i class="material-icons ult_semana_positivo">arrow_upward</i>
-            15
-            <i data-toggle="modal" data-target="#modal_rendimiento" class="material-icons flechita_abajo">arrow_drop_down</i>
-          </td>
-          <td>
-            <i class="material-icons ult_semana_positivo">arrow_upward</i>
-            15
-            <i data-toggle="modal" data-target="#modal_rendimiento" class="material-icons flechita_abajo">arrow_drop_down</i>
-          </td>
-          <td>
-            <i class="material-icons ult_semana_positivo">arrow_upward</i>
-            15
-            <i data-toggle="modal" data-target="#modal_rendimiento" class="material-icons flechita_abajo">arrow_drop_down</i>
-          </td>
-          <td>
-            <i class="material-icons ult_semana_positivo">arrow_upward</i>
-            15
-            <i data-toggle="modal" data-target="#modal_rendimiento" class="material-icons flechita_abajo">arrow_drop_down</i>
-          </td>
-          <td>
-            <i class="material-icons ult_semana_positivo">arrow_upward</i>
-            15
-            <i data-toggle="modal" data-target="#modal_rendimiento" class="material-icons flechita_abajo">arrow_drop_down</i>
-          </td>
-          <td>
-            <i class="material-icons ult_semana_positivo">arrow_upward</i>
-            15
-            <i data-toggle="modal" data-target="#modal_rendimiento" class="material-icons flechita_abajo">arrow_drop_down</i>
-          </td>
-          <td>
-            <i class="material-icons ult_semana_positivo">arrow_upward</i>
-            15
-            <i data-toggle="modal" data-target="#modal_rendimiento" class="material-icons flechita_abajo">arrow_drop_down</i>
-          </td>
-          <td> <button disabled class="btn btn-xs btn-danger btn_rendimiento" type="button" name="button">Bajo</button> </td>
+          <td> <button data-toggle="modal" data-target="#modal_rendimiento" class="btn btn-sm btn-danger btn_rendimiento" type="button" name="button"></button> </td>
+          <td> <button data-toggle="modal" data-target="#modal_rendimiento" class="btn btn-sm btn-danger btn_rendimiento" type="button" name="button"></button> </td>
+          <td> <button data-toggle="modal" data-target="#modal_rendimiento" class="btn btn-sm btn-danger btn_rendimiento" type="button" name="button"></button> </td>
+          <td> <button data-toggle="modal" data-target="#modal_rendimiento" class="btn btn-sm btn-danger btn_rendimiento" type="button" name="button"></button> </td>
+          <td> <button data-toggle="modal" data-target="#modal_rendimiento" class="btn btn-sm btn-danger btn_rendimiento" type="button" name="button"></button> </td>
+          <td> <button data-toggle="modal" data-target="#modal_rendimiento" class="btn btn-sm btn-danger btn_rendimiento" type="button" name="button"></button> </td>
+          <td> <button data-toggle="modal" data-target="#modal_rendimiento" class="btn btn-sm btn-success btn_rendimiento" type="button" name="button"></button> </td>
+          <td> <button data-toggle="modal" data-target="#modal_rendimiento" class="btn btn-sm btn-danger btn_rendimiento" type="button" name="button">26</button> </td>
         </tr>
         <tr>
           <th scope="row">3</th>
           <td>Jonathan Mayer</td>
-          <td>
-            <i class="material-icons ult_semana_positivo">arrow_upward</i>
-            15
-            <i data-toggle="modal" data-target="#modal_rendimiento" class="material-icons flechita_abajo">arrow_drop_down</i>
-          </td>
-          <td>
-            <i class="material-icons ult_semana_positivo">arrow_upward</i>
-            15
-            <i data-toggle="modal" data-target="#modal_rendimiento" class="material-icons flechita_abajo">arrow_drop_down</i>
-          </td>
-          <td>
-            <i class="material-icons ult_semana_positivo">arrow_upward</i>
-            15
-            <i data-toggle="modal" data-target="#modal_rendimiento" class="material-icons flechita_abajo">arrow_drop_down</i>
-          </td>
-          <td>
-            <i class="material-icons ult_semana_positivo">arrow_upward</i>
-            15
-            <i data-toggle="modal" data-target="#modal_rendimiento" class="material-icons flechita_abajo">arrow_drop_down</i>
-          </td>
-          <td>
-            <i class="material-icons ult_semana_positivo">arrow_upward</i>
-            15
-            <i data-toggle="modal" data-target="#modal_rendimiento" class="material-icons flechita_abajo">arrow_drop_down</i>
-          </td>
-          <td>
-            <i class="material-icons ult_semana_positivo">arrow_upward</i>
-            15
-            <i data-toggle="modal" data-target="#modal_rendimiento" class="material-icons flechita_abajo">arrow_drop_down</i>
-          </td>
-          <td>
-            <i class="material-icons ult_semana_positivo">arrow_upward</i>
-            15
-            <i data-toggle="modal" data-target="#modal_rendimiento" class="material-icons flechita_abajo">arrow_drop_down</i>
-          </td>
-          <td> <button disabled class="btn btn-xs btn-danger btn_rendimiento" type="button" name="button">Bajo</button> </td>
+          <td> <button data-toggle="modal" data-target="#modal_rendimiento" class="btn btn-sm btn-danger btn_rendimiento" type="button" name="button"></button> </td>
+          <td> <button data-toggle="modal" data-target="#modal_rendimiento" class="btn btn-sm btn-success btn_rendimiento" type="button" name="button"></button> </td>
+          <td> <button data-toggle="modal" data-target="#modal_rendimiento" class="btn btn-sm btn-danger btn_rendimiento" type="button" name="button"></button> </td>
+          <td> <button data-toggle="modal" data-target="#modal_rendimiento" class="btn btn-sm btn-danger btn_rendimiento" type="button" name="button"></button> </td>
+          <td> <button data-toggle="modal" data-target="#modal_rendimiento" class="btn btn-sm btn-danger btn_rendimiento" type="button" name="button"></button> </td>
+          <td> <button data-toggle="modal" data-target="#modal_rendimiento" class="btn btn-sm btn-danger btn_rendimiento" type="button" name="button"></button> </td>
+          <td> <button data-toggle="modal" data-target="#modal_rendimiento" class="btn btn-sm btn-danger btn_rendimiento" type="button" name="button"></button> </td>
+          <td> <button data-toggle="modal" data-target="#modal_rendimiento" class="btn btn-sm btn-danger btn_rendimiento" type="button" name="button">5</button> </td>
         </tr>
         <tr>
           <th scope="row">4</th>
           <td>Luis Fonsi</td>
-          <td>
-            <i class="material-icons ult_semana_positivo">arrow_upward</i>
-            15
-            <i data-toggle="modal" data-target="#modal_rendimiento" class="material-icons flechita_abajo">arrow_drop_down</i>
-          </td>
-          <td>
-            <i class="material-icons ult_semana_positivo">arrow_upward</i>
-            15
-            <i data-toggle="modal" data-target="#modal_rendimiento" class="material-icons flechita_abajo">arrow_drop_down</i>
-          </td>
-          <td>
-            <i class="material-icons ult_semana_positivo">arrow_upward</i>
-            15
-            <i data-toggle="modal" data-target="#modal_rendimiento" class="material-icons flechita_abajo">arrow_drop_down</i>
-          </td>
-          <td>
-            <i class="material-icons ult_semana_positivo">arrow_upward</i>
-            15
-            <i data-toggle="modal" data-target="#modal_rendimiento" class="material-icons flechita_abajo">arrow_drop_down</i>
-          </td>
-          <td>
-            <i class="material-icons ult_semana_positivo">arrow_upward</i>
-            15
-            <i data-toggle="modal" data-target="#modal_rendimiento" class="material-icons flechita_abajo">arrow_drop_down</i>
-          </td>
-          <td>
-            <i class="material-icons ult_semana_positivo">arrow_upward</i>
-            15
-            <i data-toggle="modal" data-target="#modal_rendimiento" class="material-icons flechita_abajo">arrow_drop_down</i>
-          </td>
-          <td>
-            <i class="material-icons ult_semana_positivo">arrow_upward</i>
-            15
-            <i class="material-icons flechita_abajo">arrow_drop_down</i>
-          </td>
-          <td> <button disabled class="btn btn-xs btn-danger btn_rendimiento" type="button" name="button">Bajo</button> </td>
+          <td> <button data-toggle="modal" data-target="#modal_rendimiento" class="btn btn-sm btn-danger btn_rendimiento" type="button" name="button"></button> </td>
+          <td> <button data-toggle="modal" data-target="#modal_rendimiento" class="btn btn-sm btn-danger btn_rendimiento" type="button" name="button"></button> </td>
+          <td> <button data-toggle="modal" data-target="#modal_rendimiento" class="btn btn-sm btn-success btn_rendimiento" type="button" name="button"></button> </td>
+          <td> <button data-toggle="modal" data-target="#modal_rendimiento" class="btn btn-sm btn-danger btn_rendimiento" type="button" name="button"></button> </td>
+          <td> <button data-toggle="modal" data-target="#modal_rendimiento" class="btn btn-sm btn-danger btn_rendimiento" type="button" name="button"></button> </td>
+          <td> <button data-toggle="modal" data-target="#modal_rendimiento" class="btn btn-sm btn-danger btn_rendimiento" type="button" name="button"></button> </td>
+          <td> <button data-toggle="modal" data-target="#modal_rendimiento" class="btn btn-sm btn-danger btn_rendimiento" type="button" name="button"></button> </td>
+          <td> <button data-toggle="modal" data-target="#modal_rendimiento" class="btn btn-sm btn-danger btn_rendimiento" type="button" name="button">10</button> </td>
         </tr>
         <tr>
           <th scope="row">5</th>
           <td>Mickey Mouse</td>
-          <td>
-            <i class="material-icons ult_semana_positivo">arrow_upward</i>
-            15
-            <i data-toggle="modal" data-target="#modal_rendimiento"class="material-icons flechita_abajo">arrow_drop_down</i>
-          </td>
-          <td>
-            <i class="material-icons ult_semana_positivo">arrow_upward</i>
-            15
-            <i data-toggle="modal" data-target="#modal_rendimiento"class="material-icons flechita_abajo">arrow_drop_down</i>
-          </td>
-          <td>
-            <i class="material-icons ult_semana_positivo">arrow_upward</i>
-            15
-            <i data-toggle="modal" data-target="#modal_rendimiento"class="material-icons flechita_abajo">arrow_drop_down</i>
-          </td>
-          <td>
-            <i class="material-icons ult_semana_positivo">arrow_upward</i>
-            15
-            <i data-toggle="modal" data-target="#modal_rendimiento"class="material-icons flechita_abajo">arrow_drop_down</i>
-          </td>
-          <td>
-            <i class="material-icons ult_semana_positivo">arrow_upward</i>
-            15
-            <i data-toggle="modal" data-target="#modal_rendimiento"class="material-icons flechita_abajo">arrow_drop_down</i>
-          </td>
-          <td>
-            <i class="material-icons ult_semana_positivo">arrow_upward</i>
-            15
-            <i data-toggle="modal" data-target="#modal_rendimiento"class="material-icons flechita_abajo">arrow_drop_down</i>
-          </td>
-          <td>
-            <i class="material-icons ult_semana_positivo">arrow_upward</i>
-            15
-            <i data-toggle="modal" data-target="#modal_rendimiento" class="material-icons flechita_abajo">arrow_drop_down</i>
-          </td>
-          <td> <button disabled class="btn btn-xs btn-danger btn_rendimiento"  type="button" name="button">Bajo</button> </td>
+          <td> <button data-toggle="modal" data-target="#modal_rendimiento" class="btn btn-sm btn-success btn_rendimiento" type="button" name="button"></button> </td>
+          <td> <button data-toggle="modal" data-target="#modal_rendimiento" class="btn btn-sm btn-danger btn_rendimiento" type="button" name="button"></button> </td>
+          <td> <button data-toggle="modal" data-target="#modal_rendimiento" class="btn btn-sm btn-danger btn_rendimiento" type="button" name="button"></button> </td>
+          <td> <button data-toggle="modal" data-target="#modal_rendimiento" class="btn btn-sm btn-danger btn_rendimiento" type="button" name="button"></button> </td>
+          <td> <button data-toggle="modal" data-target="#modal_rendimiento" class="btn btn-sm btn-danger btn_rendimiento" type="button" name="button"></button> </td>
+          <td> <button data-toggle="modal" data-target="#modal_rendimiento" class="btn btn-sm btn-danger btn_rendimiento" type="button" name="button"></button> </td>
+          <td> <button data-toggle="modal" data-target="#modal_rendimiento" class="btn btn-sm btn-danger btn_rendimiento" type="button" name="button"></button> </td>
+          <td> <button data-toggle="modal" data-target="#modal_rendimiento" class="btn btn-sm btn-danger btn_rendimiento" type="button" name="button">80</button> </td>
         </tr>
         <tr>
           <th scope="row">6</th>
           <td>Lionel Messi</td>
-          <td>
-            <i class="material-icons ult_semana_positivo">arrow_upward</i>
-            15
-            <i data-toggle="modal" data-target="#modal_rendimiento" class="material-icons flechita_abajo">arrow_drop_down</i>
-          </td>
-          <td>
-            <i class="material-icons ult_semana_positivo">arrow_upward</i>
-            15
-            <i data-toggle="modal" data-target="#modal_rendimiento" class="material-icons flechita_abajo">arrow_drop_down</i>
-          </td>
-          <td>
-            <i class="material-icons ult_semana_positivo">arrow_upward</i>
-            15
-            <i data-toggle="modal" data-target="#modal_rendimiento" class="material-icons flechita_abajo">arrow_drop_down</i>
-          </td>
-          <td>
-            <i class="material-icons ult_semana_positivo">arrow_upward</i>
-            15
-            <i data-toggle="modal" data-target="#modal_rendimiento" class="material-icons flechita_abajo">arrow_drop_down</i>
-          </td>
-          <td>
-            <i class="material-icons ult_semana_positivo">arrow_upward</i>
-            15
-            <i data-toggle="modal" data-target="#modal_rendimiento" class="material-icons flechita_abajo">arrow_drop_down</i>
-          </td>
-          <td>
-            <i class="material-icons ult_semana_positivo">arrow_upward</i>
-            15
-            <i data-toggle="modal" data-target="#modal_rendimiento" class="material-icons flechita_abajo">arrow_drop_down</i>
-          </td>
-          <td>
-            <i class="material-icons ult_semana_positivo">arrow_upward</i>
-            15
-            <i data-toggle="modal" data-target="#modal_rendimiento" class="material-icons flechita_abajo">arrow_drop_down</i>
-          </td>
-          <td> <button disabled class="btn btn-xs btn-danger btn_rendimiento"  type="button" name="button">Bajo</button> </td>
+          <td> <button data-toggle="modal" data-target="#modal_rendimiento" class="btn btn-sm btn-success btn_rendimiento" type="button" name="button"></button> </td>
+          <td> <button data-toggle="modal" data-target="#modal_rendimiento" class="btn btn-sm btn-danger btn_rendimiento" type="button" name="button"></button> </td>
+          <td> <button data-toggle="modal" data-target="#modal_rendimiento" class="btn btn-sm btn-danger btn_rendimiento" type="button" name="button"></button> </td>
+          <td> <button data-toggle="modal" data-target="#modal_rendimiento" class="btn btn-sm btn-danger btn_rendimiento" type="button" name="button"></button> </td>
+          <td> <button data-toggle="modal" data-target="#modal_rendimiento" class="btn btn-sm btn-danger btn_rendimiento" type="button" name="button"></button> </td>
+          <td> <button data-toggle="modal" data-target="#modal_rendimiento" class="btn btn-sm btn-danger btn_rendimiento" type="button" name="button"></button> </td>
+          <td> <button data-toggle="modal" data-target="#modal_rendimiento" class="btn btn-sm btn-success btn_rendimiento" type="button" name="button"></button> </td>
+          <td> <button data-toggle="modal" data-target="#modal_rendimiento" class="btn btn-sm btn-danger btn_rendimiento" type="button" name="button">35</button> </td>
         </tr>
         <tr>
           <th scope="row">7</th>
           <td>Don Quijote</td>
-          <td>
-            <i class="material-icons ult_semana_positivo">arrow_upward</i>
-            15
-            <i data-toggle="modal" data-target="#modal_rendimiento" class="material-icons flechita_abajo">arrow_drop_down</i>
-          </td>
-          <td>
-            <i class="material-icons ult_semana_positivo">arrow_upward</i>
-            15
-            <i data-toggle="modal" data-target="#modal_rendimiento" class="material-icons flechita_abajo">arrow_drop_down</i>
-          </td>
-          <td>
-            <i class="material-icons ult_semana_positivo">arrow_upward</i>
-            15
-            <i data-toggle="modal" data-target="#modal_rendimiento" class="material-icons flechita_abajo">arrow_drop_down</i>
-          </td>
-          <td>
-            <i class="material-icons ult_semana_positivo">arrow_upward</i>
-            15
-            <i data-toggle="modal" data-target="#modal_rendimiento" class="material-icons flechita_abajo">arrow_drop_down</i>
-          </td>
-          <td>
-            <i class="material-icons ult_semana_positivo">arrow_upward</i>
-            15
-            <i data-toggle="modal" data-target="#modal_rendimiento" class="material-icons flechita_abajo">arrow_drop_down</i>
-          </td>
-          <td>
-            <i class="material-icons ult_semana_positivo">arrow_upward</i>
-            15
-            <i data-toggle="modal" data-target="#modal_rendimiento" class="material-icons flechita_abajo">arrow_drop_down</i>
-          </td>
-          <td>
-            <i class="material-icons ult_semana_positivo">arrow_upward</i>
-            15
-            <i data-toggle="modal" data-target="#modal_rendimiento" class="material-icons flechita_abajo">arrow_drop_down</i>
-          </td>
-          <td> <button disabled class="btn btn-xs btn-danger btn_rendimiento" type="button" name="button">Bajo</button> </td>
+          <td> <button data-toggle="modal" data-target="#modal_rendimiento" class="btn btn-sm btn-success btn_rendimiento" type="button" name="button"></button> </td>
+          <td> <button data-toggle="modal" data-target="#modal_rendimiento" class="btn btn-sm btn-danger btn_rendimiento" type="button" name="button"></button> </td>
+          <td> <button data-toggle="modal" data-target="#modal_rendimiento" class="btn btn-sm btn-success btn_rendimiento" type="button" name="button"></button> </td>
+          <td> <button data-toggle="modal" data-target="#modal_rendimiento" class="btn btn-sm btn-danger btn_rendimiento" type="button" name="button"></button> </td>
+          <td> <button data-toggle="modal" data-target="#modal_rendimiento" class="btn btn-sm btn-danger btn_rendimiento" type="button" name="button"></button> </td>
+          <td> <button data-toggle="modal" data-target="#modal_rendimiento" class="btn btn-sm btn-danger btn_rendimiento" type="button" name="button"></button> </td>
+          <td> <button data-toggle="modal" data-target="#modal_rendimiento" class="btn btn-sm btn-danger btn_rendimiento" type="button" name="button"></button> </td>
+          <td> <button data-toggle="modal" data-target="#modal_rendimiento" class="btn btn-sm btn-danger btn_rendimiento" type="button" name="button">15</button> </td>
         </tr>
       </tbody>
     </table>

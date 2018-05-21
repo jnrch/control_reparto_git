@@ -1,7 +1,7 @@
 * {
   margin: 0px;
   padding: 0px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Nunito', sans-serif;
 }
 
 
@@ -201,4 +201,165 @@ body {
   padding-left: 0px;
   color: #1085b4;
   cursor: pointer;
+}
+
+i {
+  cursor: pointer;
+}
+
+.cabecera_notificaciones {
+  display: flex;
+  justify-content:space-between;
+}
+
+.notificacion_no_vista {
+  color: #aa2f2f;
+}
+
+.notificacion_vista {
+  color: #00bea4;
+}
+
+.filtros_notificaciones {
+  width: 100%;
+  display: flex;
+  height: 60px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f9f9f9;
+  margin-bottom: 20px;
+}
+
+.filtros_notificaciones input {
+  width: 30%;
+  margin-left: 15px;
+}
+
+.filtros_notificaciones input {
+  background-color: #13b3e2;
+  margin-right: 15px;
+  color: white;
+}
+
+.select_notificaciones {
+  width: 15% !important;
+  margin-left: 15px;
+  height: 35px !important;
+}
+
+.logo_ivess_salir {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.logo_ivess_salir img {
+  width: 20%;
+}
+
+.body_salir_ingresar {
+  background-color: #0060a8;
+  display: block;
+}
+
+.msj_despedida {
+  width: 100vw;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.msj_despedida h2 {
+  color: #c1c1c1;
+}
+
+.msj_despedida p {
+  color: #b2b2b2;
+  opacity: 0.6;
+}
+
+.opciones_despedida {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.btn_salir_ingresar {
+  width: auto;
+  background-color: transparent;
+  border: 1px solid white;
+  margin-right: 10px;
+  color: white;
+}
+
+.btn_salir_recordar_pass {
+  width: auto;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+}
+
+
+.msj_bienvenida {
+  width: 100vw;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.msj_bienvenida h2 {
+  color: #c1c1c1;
+}
+
+.msj_bienvenida p {
+  color: #b2b2b2;
+  opacity: 0.6;
+}
+
+.form_login {
+  width: 30%;
+  margin-left: 35%;
+}
+
+.form_login label {
+  color: white;
+}
+
+.select_modal_reclamos_desvio {
+  width: 15% !important;
+  margin-left: 15px;
+  height: 35px !important;
+}
+
+.filtros_reclamos_desvio {
+  width: 100%;
+  display: flex;
+  height: 60px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f9f9f9;
+  margin-bottom: 20px;
+}
+
+.filtros_reclamos_desvio input {
+  width: 30%;
+  margin-left: 15px;
+}
+
+.filtros_reclamos_desvio input {
+  background-color: #13b3e2;
+  margin-right: 15px;
+  color: white;
+}
+
+.cabecera_reclamos_desvio {
+  display: flex;
+  justify-content: space-between;
+  background-color: #efefef;
+  padding: 10px;
+}
+
+.cada_notificacion {
+  display: flex;
+  justify-content: space-between;
 }

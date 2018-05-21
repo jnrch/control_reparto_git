@@ -21,13 +21,19 @@ Route::get('/comparativa', function () {
     return view('comparativa');
 });
 
-Route::get('/configuracion', function () {
-    return view('configuracion');
+Route::get('/notificaciones', function () {
+    return view('notificaciones');
 });
+
 
 Route::get('/usuarios', function () {
     return view('usuarios');
 });
+
+Route::get('/login', function () {
+    return view('login');
+});
+
 
 Route::get('/salir', function () {
     return view('salir');

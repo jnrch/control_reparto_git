@@ -20,18 +20,16 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script>
     <link rel="stylesheet" href="/css/estilos.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/gijgo@1.9.6/js/gijgo.min.js" type="text/javascript"></script>
     <link href="https://cdn.jsdelivr.net/npm/gijgo@1.9.6/css/gijgo.min.css" rel="stylesheet" type="text/css" />
-
-    </script>
     <script src="/js/peity.js"></script>
   </head>
   <body>
     <div class="barra_lateral">
 
       <div class="barra_lateral_sup">
-        <img id="logo_ivess" src="img/logo_ivess.svg" alt="logo ivess">
+        <img id="logo_ivess" src="img/logo_ivess_2018_2.png" alt="logo ivess">
       </div>
 
       <div class="info_personal">
