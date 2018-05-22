@@ -85,11 +85,11 @@
                <div class="form-row">
                  <div class="form-group col-md-6">
                    <label for="usuario">Usuario</label>
-                   <input type="text" class="form-control" name="usuario" placeholder="Ingrese nombre de usuario">
+                   <input type="text" class="form-control" name="name_user" placeholder="Ingrese nombre de usuario">
                  </div>
                  <div class="form-group col-md-6">
                    <label for="name">Nombre y apellido</label>
-                   <input type="text" class="form-control" name="name" placeholder="Ingrese nombre y apellido">
+                   <input type="text" class="form-control" name="name_largo" placeholder="Ingrese nombre y apellido">
                  </div>
                  <div class="form-group col-md-6">
                    <label for="inputState">Perfil</label>
@@ -102,11 +102,11 @@
                  </div>
                  <div class="form-group col-md-6">
                    <label for="inputState">Grupo</label>
-                   <select id="inputState" class="form-control">
-                     <option selected>Seleccione...</option>
-                     <option>Supervisor 1</option>
-                     <option>Supervisor 2</option>
-                     <option>Supervisor 3</option>
+                   <select name="perfil" id="inputState" class="form-control">
+                     <option value="0" selected>Seleccione...</option>
+                     <option value="1">Supervisor 1</option>
+                     <option value="2">Supervisor 2</option>
+                     <option value="3">Supervisor 3</option>
                    </select>
                  </div>
                  <div class="form-group col-md-6">

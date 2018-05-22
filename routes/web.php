@@ -16,6 +16,7 @@ Route::get('/', function () {
     return view('resumen');
 });
 
+Route::resource('usuarios', 'UsuarioController');
 
 Route::get('/comparativa', function () {
     return view('comparativa');
@@ -25,9 +26,8 @@ Route::get('/notificaciones', function () {
     return view('notificaciones');
 });
 
-
-Route::get('/usuarios', function () {
-    return view('usuarios');
+Route::get('/users', function () {
+    return view('users');
 });
 
 Route::get('/login', function () {
