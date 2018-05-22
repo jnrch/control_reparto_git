@@ -79,6 +79,10 @@
                   <a href="#">Repartidor</a>
                 </li>
               </ul>
+              <li>
+                <i title="Estadisticas" class="material-icons iconos_barra_lateral">signal_cellular_alt</i>
+                <a href="#">Estadisticas</a>
+              </li>
           <li>
             <i title="Configuración" class="material-icons iconos_barra_lateral">exit_to_app</i>
             <a href="#">Salir</a>

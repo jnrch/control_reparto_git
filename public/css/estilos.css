@@ -327,8 +327,9 @@ i {
 
 .select_modal_reclamos_desvio {
   width: 15% !important;
-  margin-left: 15px;
   height: 35px !important;
+  border: 1px solid #4597b2;
+  color: #4597b2;
 }
 
 .filtros_reclamos_desvio {
@@ -337,8 +338,9 @@ i {
   height: 60px;
   justify-content: space-between;
   align-items: center;
-  background-color: #f9f9f9;
+  background-color: #1085b4;
   margin-bottom: 20px;
+  padding: 10px;
 }
 
 .filtros_reclamos_desvio input {
@@ -355,7 +357,7 @@ i {
 .cabecera_reclamos_desvio {
   display: flex;
   justify-content: space-between;
-  background-color: #efefef;
+  background-color: #f4f4f4;
   padding: 10px;
 }
 
